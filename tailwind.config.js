@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        condensed: ['Roboto Condensed', 'sans-serif'],
+      },
       colors: {
         brand: {
           bgGreen: '#084e4e',
